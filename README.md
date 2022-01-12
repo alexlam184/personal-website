@@ -40,6 +40,7 @@ yarn format
 1. Tailwind CSS
 2. NextJS
 3. ReactJS
+4. [i18n](https://github.com/isaachinman/next-i18next) 
 
 <br>
 
