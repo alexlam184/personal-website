@@ -65,7 +65,8 @@ Open http://localhost:3000 with your browser to see the result.
  - [next-i18next](https://github.com/isaachinman/next-i18next)
  - [react-i18next](https://react.i18next.com/)
  - [Code formatting](https://gist.github.com/silver-xu/1dcceaa14c4f0253d9637d4811948437)
-- [react icon](https://react-icons.github.io/react-icons/)
+ - [husky](https://typicode.github.io/husky/#/)
+ - [react icon](https://react-icons.github.io/react-icons/)
 
 
 ## Roadmap
