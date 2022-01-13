@@ -1,3 +1,5 @@
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/alexlam184/personal-website/blob/master/LICENSE)
+
 
 This is a `Next.js project` with TailwindCSS 
 
@@ -56,7 +58,9 @@ Open http://localhost:3000 with your browser to see the result.
 
 ## Acknowledgements
 
- - [i18n](https://github.com/isaachinman/next-i18next)
+ - [next-i18next](https://github.com/isaachinman/next-i18next)
+ - [react-i18next](https://react.i18next.com/)
+ - [Code formatting](https://gist.github.com/silver-xu/1dcceaa14c4f0253d9637d4811948437)
 
 
 ## Roadmap
@@ -69,9 +73,11 @@ Open http://localhost:3000 with your browser to see the result.
 
 - Github guide
 
+- Linux guide
 
-## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+## License & Copyright
 
+[MIT](https://github.com/alexlam184/personal-website/blob/master/LICENSE)
+
+_2022-01-13_
