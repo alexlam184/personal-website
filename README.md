@@ -57,6 +57,7 @@ Open http://localhost:3000 with your browser to see the result.
 ## Acknowledgements
 
  - [i18n](https://github.com/isaachinman/next-i18next)
+ - [Code formatting](https://gist.github.com/silver-xu/1dcceaa14c4f0253d9637d4811948437)
 
 
 ## Roadmap
