@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import { useEffect } from 'react';
 
 const Home: NextPage = () => {
   const router = useRouter();
@@ -13,7 +12,7 @@ const Home: NextPage = () => {
     <>
       <main>
         <div>
-          <Link href='/' locale={router.locale === 'en' ? 'hk' : 'en'}>
+          <Link href='/' locale={router.locale === 'en' ? 'hk' : 'en'} passHref>
             <button>{t('change-locale')}</button>
           </Link>
         </div>
