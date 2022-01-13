@@ -1,26 +1,42 @@
-import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import { useTranslation } from "next-i18next";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import type { NextPage } from 'next';
+import Link from 'next/link'
+import { useRouter } from 'next/router'
+import { useTranslation } from 'next-i18next'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
-const Home: NextPage = () => {
-  const { t } = useTranslation("home");
+
+
+const Home: NextPage  = () => {
+
+  const router = useRouter()
+  const { t } = useTranslation('home')
 
   return (
-    <div className={styles.container}>
-      <h1 className="text-3xl font-bold underline">{t("description")}</h1>
-    </div>
-  );
-};
+    <>
+      <main>
+        <div>
+          <Link
+            href='/'
+            locale={router.locale === 'en' ? 'hk' : 'en'}
+          >
+            <button>
+              {t('change-locale')}
+            </button>
 
-export const getServerSideProps = async ({ locale }) => ({
-  // This is an async function that you need to include on your page-level components, via either getStaticProps or getServerSideProps (depending on your use case):
+          </Link>
+         
+        </div>
+        {t('description')}
+      </main>
+    </>
+  )
+}
+
+export const getStaticProps = async ({ locale }:any) => ({
+
   props: {
-    ...(await serverSideTranslations(locale, ["home"])),
-    // Will be passed to the page component as props
+    ...await serverSideTranslations(locale, ['header', 'home']),
   },
-});
+})
 
-export default Home;
+export default Home
