@@ -6,9 +6,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "husky install",
-    "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
+    "prepare": "husky install",
+    "format": "yarn prettier --ignore-path .gitignore --write **/*.{js,jsx,ts,tsx}"
   },
   "dependencies": {
     "autoprefixer": "^10.4.2",
@@ -27,8 +26,15 @@
     "@typescript-eslint/parser": "^5.9.1",
     "eslint": "^8.6.0",
     "eslint-config-next": "12.0.7",
+    "eslint-config-prettier": "^8.3.0",
     "pinst": "^2.1.6",
     "prettier": "^2.5.1",
     "typescript": "4.5.4"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ]
   }
 }
