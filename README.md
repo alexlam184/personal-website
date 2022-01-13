@@ -1,54 +1,77 @@
-This is a `Next.js project` with TailwindCSS  <br><br>
+
+This is a `Next.js project` with TailwindCSS 
+
 My persoanl website is designed for showing personal background and sharing my personal thought in blog
 
 
-# Getting Started
-Open http://localhost:3000 with your browser to see the result.
-<br>
-### Building
+## Features
+
+- About
+- Blog
+
+
+## Installation
+
+Install personal-website with `yarn`
 
 ```bash
-yarn build
+  yarn install 
+  cd personal-website
 ```
 
-### Running
+### Linting 
+
+ESLint
 
 ```bash
-yarn start
-```
-
-### Running in development mode
-
-```bash
-yarn dev
-```
-
-### Linting
-
-```bash
-yarn lint
+  yarn lint
 ```
 
 ### Formatting
 
 ```bash
-yarn format
+  yarn format
+```
+## Running in development mode
+
+Start the server
+
+```bash
+  yarn dev
 ```
 
-## Acknowledgments:
-
-1. Tailwind CSS
-2. NextJS
-3. ReactJS
-4. [i18n](https://github.com/isaachinman/next-i18next) 
-
-<br>
-
-# License & copyright
-
-Copyright (c) 2022 Lam Alexnder 
-
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+Open http://localhost:3000 with your browser to see the result.
 
 
-*2022-Jan-12*<br/>
+
+
+## Tech Stack
+
+**Client:** React, Next, TailwindCSS
+
+**Server:** 
+
+**Project:** ESlint,Husky,Prettier (formatting)
+
+
+## Acknowledgements
+
+ - [i18n](https://github.com/isaachinman/next-i18next)
+
+
+## Roadmap
+
+- Additional browser support
+
+- Blog in CMS
+
+- Readme guide
+
+- Github guide
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+
