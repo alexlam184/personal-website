@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-
+import { Navbar } from '../components/nav-bar/nav-bar';
 const Home: NextPage = () => {
   const router = useRouter();
   const { t } = useTranslation('home');
@@ -11,6 +11,7 @@ const Home: NextPage = () => {
   return (
     <>
       <main>
+        <Navbar/>
         <div>
           <Link href='/' locale={router.locale === 'en' ? 'hk' : 'en'} passHref>
             <button>{t('change-locale')}</button>
