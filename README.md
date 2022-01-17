@@ -75,7 +75,7 @@ Open http://localhost:3000 with your browser to see the result.
 
 - Blog in CMS
 
-- markdown guide
+- Markdown guide
 
 - Readme guide
 
