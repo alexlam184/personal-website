@@ -68,22 +68,21 @@ Open http://localhost:3000 with your browser to see the result.
  - [husky](https://typicode.github.io/husky/#/)
  - [react icon](https://react-icons.github.io/react-icons/)
 
-
-## Roadmap
+<details>
+<summary>Roadmap</summary>
 
 - Additional browser support
 
 - Blog in CMS
 
-- Markdown guide
+- Markdown guide - Blog
 
-- Readme guide
+- Readme guide - Blog
 
-- Github guide
+- Github guide - Blog
 
-- Linux guide
-
-![Jokes Card](https://readme-jokes.vercel.app/api)
+- Linux guide - Blog
+</details>
 
 ## License & Copyright
 
