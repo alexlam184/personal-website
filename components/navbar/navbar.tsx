@@ -1,11 +1,12 @@
 /*  ./components/Navbar.jsx     */
 import { useState } from 'react';
 import * as React from 'react';
-import Image from 'next/image';
+import Logo from "../../public/assets/alex-logo.png";
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
+import Image from 'next/image';
 
-import omron_logo from '../../public/assets/omron.png';
+
 
 export const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -37,12 +38,10 @@ export const Navbar = () => {
       ></div>
       <header className='w-full h-16 bg-white sm:h-20 flex items-center z-30 w-full shadow'>
         <div className='container px-2 mx-auto flex items-center justify-between '>
-          <div className='lg:w-0 lg:flex-1'>
-            <a href='#'>
-              <div className='mb-2 h-8 w-[150px] md:w-[200px]'>
-                {/* <Image src={omron_logo} alt='Picture of the author' /> */}
-                <div><span className="font-bold">Alexander Lam</span></div>
-                <div className="flex items-center"><span>Life</span> <span className="h-1 w-1 bg-black rounded-full inline-block m-1"></span><span className="bg-yellow-300"><span className="m-1">Code</span></span> <span className="h-1 w-1 bg-black rounded-full inline-block m-1"></span><span>Play</span></div>
+        <div className="lg:w-0 lg:flex-1">
+            <a href="#">
+              <div className="mb-2 h-8 w-[150px] md:w-[200px]">
+                <Image src={Logo} alt="Picture of the author" />
               </div>
             </a>
           </div>
@@ -60,8 +59,7 @@ export const Navbar = () => {
               <ul className={`${active ? '' : 'hidden lg:contents'}`}>
                 <li className='h-[100px] lg:hidden'>
                   <div className='m-6 h-10 w-[200px] sm:h-10 transition'>
-                    {/* <Image src={omron_logo} alt='Picture of the author' /> */}
-                    <span>Rockstar</span>
+                    <Image src={Logo} alt='Picture of the author' />
                   </div>
 
                   <svg

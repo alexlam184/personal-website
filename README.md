@@ -84,6 +84,13 @@ Open http://localhost:3000 with your browser to see the result.
 - Linux guide - Blog
 </details>
 
+<details>
+<summary>Layer</summary>
+
+| Components | z-index |
+|--------------|-----------|
+| header | 30 |
+
 ## License & Copyright
 
 [MIT](https://github.com/alexlam184/personal-website/blob/master/LICENSE)
