@@ -1,12 +1,10 @@
 /*  ./components/Navbar.jsx     */
 import { useState } from 'react';
 import * as React from 'react';
-import Logo from "../../public/assets/alex-logo.png";
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
-
-
+import Logo from '../../public/assets/logo/alex-logo.png';
 
 export const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -29,22 +27,20 @@ export const Navbar = () => {
   };
 
   return (
-    <div className='fixed top-0 z-40 w-full'>
+    <div className='sticky top-0 z-40 w-full'>
       <div
         className={`
           ${active ? '' : 'hidden'}
           absolute h-screen w-screen z-40 bg-bkgroundblack bg-opacity-70 lg:hidden
         `}
       ></div>
-      <header className='w-full h-16 bg-white sm:h-20 flex items-center z-30 w-full shadow'>
-        <div className='container px-2 mx-auto flex items-center justify-between '>
-        <div className="lg:w-0 lg:flex-1">
-            <a href="#">
-              <div className="mb-2 h-8 w-[150px] md:w-[200px]">
-                <Image src={Logo} alt="Picture of the author" />
-              </div>
-            </a>
-          </div>
+      <header className='relative bg-white sm:h-20 flex items-center w-full shadow'>
+        <div className='container px-2 mx-auto flex items-center justify-between z-40'>
+            <div className='mt-2 w-[150px] md:w-[200px]'>
+              <a href='#'>
+                <Image src={Logo} alt='Logo' />
+              </a>
+            </div>
           <div className='flex items-center'>
             <nav
               className={`
@@ -53,7 +49,7 @@ export const Navbar = () => {
                     ? 'absolute top-0 left-0 w-10/12 lg:w-full h-screen bg-white z-40 lg:relative lg:w-full lg:h-full'
                     : '-left-80'
                 }
-                group font-sen text-gray-800 dark:text-white uppercase text-lg menu_transition lg:flex lg:items-center
+                group font-sen text-gray-800 dark:text-white uppercase text-lg ease-in-out duration-150 lg:flex lg:items-center
               `}
             >
               <ul className={`${active ? '' : 'hidden lg:contents'}`}>
@@ -79,7 +75,7 @@ export const Navbar = () => {
                 </li>
                 <li className='lg:float-left'>
                   <button
-                    className='py-2 px-6 flex text-base font-medium text-gray-500 border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-gray-900 lg:hover:border-omronblue'
+                    className='py-2 px-6 flex text-base font-medium text-gray-500 border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-gray-900 lg:hover:border-black'
                     onClick={ViewpointClick}
                   >
                     Viewpoint
@@ -88,7 +84,7 @@ export const Navbar = () => {
                 <li className='lg:float-left'>
                   <a
                     href='#'
-                    className='py-2 px-6 flex text-base font-medium text-gray-500 border-b-4 border-transparent transition-all duration-100 ease-in-out transform hover:-translate-y-1  hover:text-gray-900 lg:hover:border-omronblue'
+                    className='py-2 px-6 flex text-base font-medium text-gray-500 border-b-4 border-transparent transition-all duration-100 ease-in-out transform hover:-translate-y-1  hover:text-gray-900 lg:hover:border-black'
                   >
                     {t('Home')}
                   </a>
@@ -96,7 +92,7 @@ export const Navbar = () => {
                 <li className='lg:float-left'>
                   <a
                     href='#'
-                    className='py-2 px-6 flex text-base font-medium text-gray-500 border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-gray-900 lg:hover:border-omronblue'
+                    className='py-2 px-6 flex text-base font-medium text-gray-500 border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-gray-900 lg:hover:border-black'
                   >
                     {t('CV')}
                   </a>
@@ -104,7 +100,7 @@ export const Navbar = () => {
                 <li className='lg:float-left'>
                   <a
                     href='#'
-                    className='py-2 px-6 flex text-base font-medium text-gray-500 border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-gray-900 lg:hover:border-omronblue'
+                    className='py-2 px-6 flex text-base font-medium text-gray-500 border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-gray-900 lg:hover:border-black'
                   >
                     {t('Blog')}
                   </a>
@@ -112,7 +108,7 @@ export const Navbar = () => {
                 <li className='lg:float-left'>
                   <a
                     href='#'
-                    className='py-2 px-6 flex text-base font-medium text-gray-500 border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-gray-900 lg:hover:border-omronblue'
+                    className='py-2 px-6 flex text-base font-medium text-gray-500 border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-gray-900 lg:hover:border-black'
                   >
                     {t('Project')}
                   </a>
@@ -120,7 +116,7 @@ export const Navbar = () => {
                 <li className='lg:float-left'>
                   <a
                     href='#'
-                    className='py-2 px-6 flex text-base font-medium text-gray-500 border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-gray-900 lg:hover:border-omronblue'
+                    className='py-2 px-6 flex text-base font-medium text-gray-500 border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-gray-900 lg:hover:border-black'
                   >
                     {t('Contact')}
                   </a>

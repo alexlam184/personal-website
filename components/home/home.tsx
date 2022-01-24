@@ -1,12 +1,17 @@
 import * as React from 'react';
+import Image from 'next/image';
+import icon from '../../public/assets/photo/alex-icon.jpg';
 
 export const Home = () => {
   return (
-    <div className='w-screen h-screen'>
-      <div className="flex justify-center items-center w-auto w-auto">
-        <div>
-          <span>Hi, My name is</span>
-          <span>Lam Alexander</span>
+    <div className='h-screen flex justify-center items-center'>
+      <div className=''>
+        <div className="inline-block">
+          <span className='block'>Hi, My name is </span>
+          <span className='block'>Lam Alexander</span>
+        </div>
+        <div className='inline-block bg-black w-[100px] h-[100px]'>
+          <Image src={icon} alt="Picture of the author"/>
         </div>
       </div>
     </div>
