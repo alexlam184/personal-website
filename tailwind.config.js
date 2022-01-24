@@ -9,10 +9,10 @@ module.exports = {
       fontFamily: {
         sans: ['BR Firma', 'sans-serif'],
         serif: ['New Font', 'serif'],
-    },
-    colors: {
-      bkgroundblack: "#606060",
-    },
+      },
+      colors: {
+        bkgroundblack: '#606060',
+      },
     },
   },
   plugins: [],

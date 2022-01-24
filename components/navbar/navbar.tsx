@@ -36,11 +36,11 @@ export const Navbar = () => {
       ></div>
       <header className='relative bg-white sm:h-20 flex items-center w-full shadow'>
         <div className='container px-2 mx-auto flex items-center justify-between z-40'>
-            <div className='mt-2 w-[150px] md:w-[200px]'>
-              <a href='#'>
-                <Image src={Logo} alt='Logo' />
-              </a>
-            </div>
+          <div className='mt-2 w-[150px] md:w-[200px]'>
+            <a href='#'>
+              <Image src={Logo} alt='Logo' />
+            </a>
+          </div>
           <div className='flex items-center'>
             <nav
               className={`

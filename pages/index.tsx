@@ -4,7 +4,6 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { Navbar } from '../components/navbar/navbar';
 import { Home } from '../components/home/home';
 const Index: NextPage = () => {
-
   return (
     <>
       <Head>
@@ -31,10 +30,7 @@ const Index: NextPage = () => {
           property='og:description'
           content="'Never Gonna Give You Up ' - Rick Astley. That's my song. My journey in happy and fun"
         />
-        <meta
-          property='og:image'
-          content=''
-        />
+        <meta property='og:image' content='' />
 
         {/* <!-- Twitter --> */}
         <meta property='twitter:card' content='summary_large_image' />
@@ -47,10 +43,7 @@ const Index: NextPage = () => {
           property='twitter:description'
           content="'Never Gonna Give You Up ' - Rick Astley. That's my song. My journey in happy and fun"
         />
-        <meta
-          property='twitter:image'
-          content=''
-        />
+        <meta property='twitter:image' content='' />
       </Head>
       <main>
         <Navbar />
@@ -60,7 +53,7 @@ const Index: NextPage = () => {
   );
 };
 
-export const getStaticProps = async ({locale} : any) => ({
+export const getStaticProps = async ({ locale }: any) => ({
   props: {
     ...(await serverSideTranslations(locale, ['header', 'home'])),
   },
