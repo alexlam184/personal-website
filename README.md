@@ -89,7 +89,7 @@ Open http://localhost:3000 with your browser to see the result.
 
 | Components | z-index |
 |--------------|-----------|
-| header | 30 |
+| header | 40 |
 
 ## License & Copyright
 
