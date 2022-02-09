@@ -1,3 +1,8 @@
 {
-    "description": "Welcome to React and react-i18next"
+    "name":"Lam Alexander",
+    "greeting":"Hi, I am",
+    "developer":"Developer",
+    "baller":"Baller",
+    "boxer":"Boxer",
+    "freelancer":"Freelancer"
   }
