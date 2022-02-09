@@ -4,6 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --option-num:4;  /*number of option*/
+  --option-line-height: 90px;
+}
+
+
+
 html,
 body {
   padding: 0;
@@ -25,9 +32,20 @@ a {
 /*TEXT TYPING EFFECT - START*/
 .option{
   margin-left: 15px;
-  height:90px;
-  line-height:90px;
+  height:var(--option-line-height);
+  line-height:var(--option-line-height);
   overflow: hidden;
+  /* width: max-content; */
+}
+
+
+@keyframes center-animate {
+  0% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(0);
+  }
 }
 
 .option li{
@@ -35,12 +53,13 @@ a {
   color:#ffff;
   position: relative;
   top:0;
-  animation: slide 12s steps(4) infinite;
+  animation: slide 12s steps(var(--option-num)) infinite;  /*option text*/
 }
 
 @keyframes slide{
+
 100%{
-  top:-360px;
+  top: calc(var(--option-line-height)*var(--option-num)*(-1))
 }
 }
 
