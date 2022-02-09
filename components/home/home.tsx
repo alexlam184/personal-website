@@ -37,7 +37,7 @@ export const Home = () => {
 
   return (
     <div className='relative h-screen bg-bkgroundblue flex justify-center items-center'>
-      <div className='fixed object-center overflow-hidden object-cover pointer-events-none  w-11/12 xl:w-1/2 xl:right-0'>
+      <div className='fixed object-center overflow-hidden object-cover pointer-events-none  w-11/12 xl:w-7/12 xl:right-0'>
         <Image
           layout='responsive'
           src={computer}
