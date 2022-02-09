@@ -15,10 +15,10 @@ export const Home = () => {
   useEffect(() => {
     const options = {
       strings: [
-        '🖱️ ' + t('developer'),
-        '🏀 ' + t('baller'),
-        '🥊 ' + t('boxer'),
-        '🤖 ' + t('freelancer'),
+        t('developer') + ' 🖱️ ',
+        t('baller') + ' 🏀 ',
+        t('boxer') + ' 🥊 ',
+        t('freelancer') + ' 🤖 ',
       ],
       typeSpeed: 80,
       backSpeed: 75,
@@ -36,8 +36,8 @@ export const Home = () => {
   }, []);
 
   return (
-    <div className='relative h-screen bg-bkgroundblue flex justify-center items-center'>
-      <div className='fixed object-center overflow-hidden object-cover pointer-events-none  w-11/12 xl:w-7/12 xl:right-0'>
+    <div className='h-screen bg-bkgroundblue flex justify-center items-center'>
+      <div className='absolute object-center overflow-hidden object-cover pointer-events-none  w-11/12 xl:w-7/12 xl:right-0'>
         <Image
           layout='responsive'
           src={computer}
@@ -52,20 +52,25 @@ export const Home = () => {
           </span>
           <span className='block bg-bkgrounddarkblue text-white mt-7 md:mt-14 xl:mt-6 text-4xl md:text-9xl xl:text-7xl'>
             <div className='p-4 md:p-8'>
-            <strong>
-              <div>
-              <span>{t('fullname')}</span>
-              </div>
-              <div>
-                
-                <span>{t('surname')}</span>
-              </div>
-            </strong>
+              <strong>
+                <div>
+                  <span>{t('fullname')}</span>
+                </div>
+                <div>
+                  <span>{t('surname')}</span>
+                </div>
+              </strong>
             </div>
           </span>
           <div className='block text-white text-3xl md:text-6xl xl:text-5xl mt-7 md:mt-14 xl:mt-6 h-[100px]'>
             <span className='' ref={el} />
           </div>
+          <button className='float-right border-4 border-bkgrounddarkblue mx-2 text-white px-3 md:text-2xl lg:text-3xl transition duration-300 ease-in-out shadow-innerDefault hover:bg-bkgrounddarkblue'>
+            <a href='#section5'>{t('resume')}</a>
+          </button>
+          <button className='float-right border-4 border-bkgrounddarkblue text-white px-3 md:text-2xl lg:text-3xl transition duration-300 ease-in-out shadow-innerDefault hover:bg-bkgrounddarkblue'>
+            <a href='#section5'>{t('project')}</a>
+          </button>
         </div>
       </div>
     </div>

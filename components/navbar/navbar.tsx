@@ -27,14 +27,15 @@ export const Navbar = () => {
   };
 
   return (
-    <div className='sticky top-0 z-40 w-full'>
+    // <div className='sticky top-0 z-40 w-full'>
+    <div className='absolute top-0 z-40 w-full'>
       <div
         className={`
           ${active ? '' : 'hidden'}
           absolute h-screen w-screen z-40 bg-bkgroundblack bg-opacity-70 lg:hidden
         `}
       ></div>
-      <header className='relative bg-white sm:h-20 flex items-center w-full shadow'>
+      <header className='relative bg-transparent sm:h-20 flex items-center w-full'>
         <div className='container px-2 mx-auto flex items-center justify-between z-40'>
           <div className='mt-2 w-[150px] md:w-[200px]'>
             <a href='#'>
@@ -46,16 +47,16 @@ export const Navbar = () => {
               className={`
                 ${
                   active
-                    ? 'absolute top-0 left-0 w-10/12 lg:w-full h-screen bg-white z-40 lg:relative lg:w-full lg:h-full'
+                    ? 'absolute top-0 left-0 w-10/12 lg:w-full h-screen bg-white text-black z-40  lg:relative lg:w-full lg:h-full'
                     : '-left-80'
                 }
-                group font-sen text-gray-800 dark:text-white uppercase text-lg ease-in-out duration-150 lg:flex lg:items-center
+                group font-sen text-white dark:text-white uppercase text-lg ease-in-out duration-150 lg:flex lg:items-center
               `}
             >
               <ul className={`${active ? '' : 'hidden lg:contents'}`}>
                 <li className='h-[100px] lg:hidden'>
                   <div className='m-6 h-10 w-[200px] sm:h-10 transition'>
-                    <Image src={Logo} alt='Picture of the author' />
+                    <Image src={Logo} alt='Logo' />
                   </div>
 
                   <svg
@@ -75,7 +76,7 @@ export const Navbar = () => {
                 </li>
                 <li className='lg:float-left'>
                   <button
-                    className='py-2 px-6 flex text-base font-medium text-gray-500 border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-gray-900 lg:hover:border-black'
+                    className='py-2 px-6 flex text-base font-medium border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue'
                     onClick={ViewpointClick}
                   >
                     Viewpoint
@@ -84,7 +85,7 @@ export const Navbar = () => {
                 <li className='lg:float-left'>
                   <a
                     href='#'
-                    className='py-2 px-6 flex text-base font-medium text-gray-500 border-b-4 border-transparent transition-all duration-100 ease-in-out transform hover:-translate-y-1  hover:text-gray-900 lg:hover:border-black'
+                    className='py-2 px-6 flex text-base font-medium border-b-4 border-transparent transition-all duration-100 ease-in-out transform hover:-translate-y-1  hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue'
                   >
                     {t('Home')}
                   </a>
@@ -92,7 +93,7 @@ export const Navbar = () => {
                 <li className='lg:float-left'>
                   <a
                     href='#'
-                    className='py-2 px-6 flex text-base font-medium text-gray-500 border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-gray-900 lg:hover:border-black'
+                    className='py-2 px-6 flex text-base font-medium border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue'
                   >
                     {t('CV')}
                   </a>
@@ -100,7 +101,7 @@ export const Navbar = () => {
                 <li className='lg:float-left'>
                   <a
                     href='#'
-                    className='py-2 px-6 flex text-base font-medium text-gray-500 border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-gray-900 lg:hover:border-black'
+                    className='py-2 px-6 flex text-base font-medium border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue'
                   >
                     {t('Blog')}
                   </a>
@@ -108,7 +109,7 @@ export const Navbar = () => {
                 <li className='lg:float-left'>
                   <a
                     href='#'
-                    className='py-2 px-6 flex text-base font-medium text-gray-500 border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-gray-900 lg:hover:border-black'
+                    className='py-2 px-6 flex text-base font-medium border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue'
                   >
                     {t('Project')}
                   </a>
@@ -116,7 +117,7 @@ export const Navbar = () => {
                 <li className='lg:float-left'>
                   <a
                     href='#'
-                    className='py-2 px-6 flex text-base font-medium text-gray-500 border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-gray-900 lg:hover:border-black'
+                    className='py-2 px-6 flex text-base font-medium  border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue'
                   >
                     {t('Contact')}
                   </a>
@@ -137,14 +138,14 @@ export const Navbar = () => {
             </nav>
             <button
               className={`
-                ${active ? 'outline-none ring-2 ring-inset ring-gray-100' : ''}
-                group lg:hidden flex flex-col ml-4 bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100
+                ${active ? 'outline-none ring-2 ring-inset ring-gray-100 bg-white' : ''}
+                group lg:hidden flex flex-col ml-4 bg-transparent rounded-md p-2 inline-flex items-center justify-center
               `}
               onClick={MenuhandleClick}
             >
-              <span className='w-6 h-1 bg-gray-800 dark:bg-white mb-1'></span>
-              <span className='w-6 h-1 bg-gray-800 dark:bg-white mb-1'></span>
-              <span className='w-6 h-1 bg-gray-800 dark:bg-white mb-1'></span>
+              <span className={`${active ? 'bg-black' : 'bg-white'} w-6 h-1 mb-1`}></span>
+              <span className={`${active ? 'bg-black' : 'bg-white'} w-6 h-1 mb-1`}></span>
+              <span className={`${active ? 'bg-black' : 'bg-white'} w-6 h-1 mb-1`}></span>
             </button>
           </div>
         </div>

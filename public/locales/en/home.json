@@ -3,7 +3,9 @@
   "surname":"Lam",
     "greeting":"Hi, I am",
     "developer":"Developer",
-    "baller":"Baller",
-    "boxer":"Boxer",
-    "freelancer":"Freelancer"
+    "baller":"Basketball fans",
+    "boxer":"Boxing lover",
+    "freelancer":"Freelancer",
+    "resume":"Resume",
+    "project":"Project"
   }

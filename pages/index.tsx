@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { Navbar } from '../components/navbar/navbar';
 import { Home } from '../components/home/home';
+import { Description } from '../components/description/description';
 const Index: NextPage = () => {
   return (
     <>
@@ -48,6 +49,7 @@ const Index: NextPage = () => {
       <main>
         <Navbar />
         <Home />
+        <Description />
       </main>
     </>
   );
@@ -55,7 +57,11 @@ const Index: NextPage = () => {
 
 export const getStaticProps = async ({ locale }: any) => ({
   props: {
-    ...(await serverSideTranslations(locale, ['header', 'home'])),
+    ...(await serverSideTranslations(locale, [
+      'header',
+      'home',
+      'description',
+    ])),
   },
 });
 
