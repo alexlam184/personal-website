@@ -12,9 +12,12 @@ module.exports = {
       },
       colors: {
         bkgroundblack: '#606060',
-        bkgroundpurple: '#4d0138',
+        bkgroundpurple: '#9246fe',
+        bkgrounddarkpurple: '#201f3f',
         bkgroundblue: '#51b3bf',
         bkgrounddarkblue: '#0081A7',
+        bkgroundorange:'#ef4b3f',
+        bkgroundnude:"#ece8e1"
       },
     },
   },

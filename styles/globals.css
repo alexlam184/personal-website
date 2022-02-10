@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Roboto:wght@300;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Source+Code+Pro&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,8 +15,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  font-family: 'Source Code Pro', monospace;
 }
 
 a {
@@ -95,7 +96,6 @@ animation: typing 3s steps(10) infinite;
 
 
 .siri-anime{
-  color:white;
   animation: show-up 3s;  /*option text*/
 }
 
@@ -105,8 +105,31 @@ animation: typing 3s steps(10) infinite;
 }
 85%{
   opacity: 0;
+  
 }
 100%{
   opacity: 1;
 }
+}
+
+.text-style{
+  font-size: 25vw;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.text-stroke{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: #212932;
+  font-weight: 100;
+}
+
+.text-fill-black{
+  color:black;
+  margin: 80px;
+}
+
+.text-fill-white{
+  color:white;
+  margin: 160px;
 }

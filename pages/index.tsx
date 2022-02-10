@@ -4,6 +4,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { Navbar } from '../components/navbar/navbar';
 import { Home } from '../components/home/home';
 import { Description } from '../components/description/description';
+import { Project } from '../components/project/project';
 const Index: NextPage = () => {
   return (
     <>
@@ -50,6 +51,7 @@ const Index: NextPage = () => {
         <Navbar />
         <Home />
         <Description />
+        <Project/>
       </main>
     </>
   );

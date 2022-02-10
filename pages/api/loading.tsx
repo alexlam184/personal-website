@@ -4,9 +4,16 @@ import Image from 'next/image';
 import Logo from '../../public/assets/logo/alex-logo.png';
 const Loadingscreen = (
   <>
-    <div className='flex fixed items-center justify-center bg-black w-screen h-screen min-w-full max-w-full min-h-full max-h-full z-50 transition ease-in-out delay-1500'>
-    <div className="relative w-96 flex items-center justify-center table-caption">
-    <Image src={Logo} alt='Logo' />
+    <div className='flex fixed items-center justify-center bg-black w-screen h-screen min-w-full max-w-full min-h-full max-h-full z-50 transition ease-in-out delay-10000'>
+      <div className='relative w-96 flex items-center justify-center table-caption'>
+        <Image src={Logo} alt='Logo' />
+      </div>
+      <div className='min-h-screen flex justify-center items-center bg-black'>
+        <div className='loader bg-white p-5 rounded-full flex space-x-3'>
+          <div className='w-5 h-5 bg-gray-800 rounded-full animate-bounce'></div>
+          <div className='w-5 h-5 bg-gray-800 rounded-full animate-bounce'></div>
+          <div className='w-5 h-5 bg-gray-800 rounded-full animate-bounce'></div>
+        </div>
       </div>
     </div>
   </>
