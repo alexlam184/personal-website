@@ -3,7 +3,11 @@ import { useTranslation } from 'next-i18next';
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 import RedDots from '../../public/assets/graph/red-dots.svg';
-
+import { FaReact, FaNodeJs } from 'react-icons/fa';
+import {
+  SiTypescript,
+  SiPython,
+} from 'react-icons/si';
 export const Description = () => {
   const { t } = useTranslation('description');
   // Create reference to store the DOM element containing the animation
@@ -43,35 +47,69 @@ export const Description = () => {
               <span className='' ref={el} />
             </div>
           </div>
-          </div>
-          <div className='absolute top-0 right-0 siri-anime md:inline-block w-screen md:w-1/2 h-screen  bg-black text-bkgroundorange flex justify-center items-center'>
-            <div className=''>
-              <div className='flex justify-center items-center text-6xl m-2'>
-                <span>{t('message')}</span>
+        </div>
+        <div className='absolute top-0 right-0 siri-anime md:inline-block w-screen md:w-1/2 h-screen  bg-black text-bkgroundorange flex justify-center items-center'>
+          <div className=''>
+            <div className='flex justify-center items-center text-6xl m-2'>
+              <span>{t('message')}</span>
+            </div>
+            <div className='m-8 md:text-xl xl:text-3xl'>
+              <span>{t('phonics')}</span>
+            </div>
+            <div className='mx-4 md:text-xl xl:text-3xl'>
+              <div>
+                <span>{t('pos')}</span>
               </div>
-              <div className='m-8 md:text-xl xl:text-3xl'>
-                <span>{t('phonics')}</span>
+              <div className='my-5'>
+                <span>{t('meaning1')}</span>
               </div>
-              <div className='mx-4 md:text-xl xl:text-3xl'>
-                <div>
-                  <span>{t('pos')}</span>
+              <div className='my-5'>
+                <span>{t('meaning2')}</span>
+              </div>
+              <div className='block text-6xl'>
+                <div className='inline-block m-4 group relative'>
+                  <FaReact />
+                  <span
+                    className={`absolute left-0 top-0 w-auto p-2 mt-20 min-w-max rounded-md shadow-md bg-white text-bkgroundorange text-xs z-20 font-bold transition-all duration-100 scale-0 origin-left group-hover:scale-100`}
+                  >
+                    React.js
+                  </span>
                 </div>
-                <div className='my-5'>
-                  <span>{t('meaning1')}</span>
+                <div className='inline-block m-4 group relative'>
+                  <SiTypescript />
+                  <span
+                    className={`absolute left-0 top-0 w-auto p-2 mt-20 min-w-max rounded-md shadow-md bg-white text-bkgroundorange text-xs z-20 font-bold transition-all duration-100 scale-0 origin-left group-hover:scale-100`}
+                  >
+                    Typescript
+                  </span>
                 </div>
-                <div className='my-5'>
-                  <span>{t('meaning2')}</span>
+                <div className='inline-block m-4 group relative'>
+                  <FaNodeJs />
+                  <span
+                    className={`absolute left-0 top-0 w-auto p-2 mt-20 min-w-max rounded-md shadow-md bg-white text-bkgroundorange text-xs z-20 font-bold transition-all duration-100 scale-0 origin-left group-hover:scale-100`}
+                  >
+                    Node.js
+                  </span>
+                </div>
+                <div className='inline-block m-4 group relative'>
+                  <SiPython />
+                  <span
+                    className={`absolute left-0 top-0 w-auto p-2 mt-20 min-w-max rounded-md shadow-md bg-white text-bkgroundorange text-xs z-20 font-bold transition-all duration-100 scale-0 origin-left group-hover:scale-100`}
+                  >
+                    Python
+                  </span>
                 </div>
               </div>
-              {/* <div className='italic'>
+            </div>
+            {/* <div className='italic'>
                 <span>{t('motto1')}</span>
               </div>
               <div className='italic'>
                 <span>{t('motto2')}</span>
               </div> */}
-            </div>
           </div>
         </div>
+      </div>
     </>
   );
 };

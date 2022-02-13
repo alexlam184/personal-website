@@ -17,7 +17,8 @@ module.exports = {
         bkgroundblue: '#51b3bf',
         bkgrounddarkblue: '#0081A7',
         bkgroundorange:'#ef4b3f',
-        bkgroundnude:"#ece8e1"
+        bkgroundnude:"#ece8e1",
+        bkroundyellow:"#f4ff5f",
       },
     },
   },
