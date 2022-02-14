@@ -2,7 +2,6 @@ import * as React from 'react';
 import { useTranslation } from 'next-i18next';
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
-import RedDots from '../../public/assets/graph/red-dots.svg';
 import { FaReact, FaNodeJs } from 'react-icons/fa';
 import {
   SiTypescript,

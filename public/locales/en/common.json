@@ -1,3 +1,9 @@
 {
-    "description": "Welcome to React and react-i18next"
+    "getintouch":"GET IN TOUCH",
+    "connect":"Send me a msg...",
+    "name":"NAME",
+    "email":"EMAIL",
+    "message":"MESSAGE",
+    "submit":"Submit",
+    "getcloser":"CLOSER..."
   }

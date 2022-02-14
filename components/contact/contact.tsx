@@ -1,23 +1,22 @@
 import * as React from 'react';
-import Image from 'next/image';
-import AlexIcon from '../../public/assets/photo/alex-icon.jpg';
-import { AiFillGithub, AiOutlineMail, AiFillLinkedin } from 'react-icons/ai';
+import { useTranslation } from 'next-i18next';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { HiOutlineMail } from 'react-icons/hi';
 export const Contact = () => {
+  const { t } = useTranslation('common');
   return (
     <>
       <div className=''>
         <div className='relative flex items-center justify-center'>
           <div className='w-full h-screen'>
             <div className='flex justify-center items-center text-6xl my-8 contact-font'>
-              <span>GET IN TOUCH</span>
-              {/* <Image layout='intrinsic' src={AlexIcon} alt={'My face'} /> */}
+              <span>{t("getintouch")}</span>
             </div>
             <div className=''>
               <div className=' bg-bkroundyellow md:flex'>
                 <div className='block mx-auto my-6 border-8 border-black xl:h-[600px] w-8/12 md:w-[400px] xl:w-[600px]'>
                   <div className='flex justify-center text-2xl w-full my-4 contact-font'>
-                    <span>~Send me a msg~</span>
+                    <span>{t("connect")}</span>
                   </div>
                   <form className='text-2xl leading-10'>
                     <div className='flex justify-center m-2'>
@@ -25,7 +24,7 @@ export const Contact = () => {
                         className='bg-black w-10/12 text-white'
                         type='text'
                         name='fname'
-                        placeholder='NAME'
+                        placeholder={t("name")}
                       />
                     </div>
                     <div className='flex justify-center m-2'>
@@ -33,19 +32,19 @@ export const Contact = () => {
                         className='bg-black text-white w-10/12'
                         type='text'
                         name='email'
-                        placeholder='EMAIL'
+                        placeholder={t("email")}
                       />
                     </div>
                     <div className='flex justify-center m-2'>
                       <textarea
                         className='bg-black text-white w-10/12 h-[300px]'
                         name='message'
-                        placeholder='MESSAGE'
+                        placeholder={t("message")}
                       />
                     </div>
                     <div className='flex justify-evenly my-8'>
                       <button className='bg-green-500 w-[150px] h-[60px] text-white'>
-                        SUBMIT
+                      {t("submit")}
                       </button>
                       <button className='bg-red-500 w-[150px] text-4xl'>
                         💀
@@ -55,7 +54,7 @@ export const Contact = () => {
                 </div>
                 <div className='block mx-auto my-6 border-8 border-black xl:h-[600px] w-8/12 md:w-[400px] xl:w-[600px]'>
                   <div className='flex justify-center text-2xl w-full my-4 contact-font'>
-                    <span>~Connect with me~</span>
+                    <span>{t("getcloser")}</span>
                   </div>
                   <div className='flex justify-center'>
                     <div className='text-xl leading-10 font-bold'>
