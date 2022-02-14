@@ -51,7 +51,7 @@ const Index: NextPage = () => {
         <Navbar />
         <Home />
         <Description />
-        <Contact/>
+        <Contact />
       </main>
     </>
   );
@@ -63,7 +63,7 @@ export const getStaticProps = async ({ locale }: any) => ({
       'header',
       'home',
       'description',
-      'common'
+      'common',
     ])),
   },
 });

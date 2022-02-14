@@ -138,14 +138,24 @@ export const Navbar = () => {
             </nav>
             <button
               className={`
-                ${active ? 'outline-none ring-2 ring-inset ring-gray-100 bg-white' : ''}
+                ${
+                  active
+                    ? 'outline-none ring-2 ring-inset ring-gray-100 bg-white'
+                    : ''
+                }
                 group lg:hidden flex flex-col ml-4 bg-transparent rounded-md p-2 inline-flex items-center justify-center
               `}
               onClick={MenuhandleClick}
             >
-              <span className={`${active ? 'bg-black' : 'bg-white'} w-6 h-1 mb-1`}></span>
-              <span className={`${active ? 'bg-black' : 'bg-white'} w-6 h-1 mb-1`}></span>
-              <span className={`${active ? 'bg-black' : 'bg-white'} w-6 h-1 mb-1`}></span>
+              <span
+                className={`${active ? 'bg-black' : 'bg-white'} w-6 h-1 mb-1`}
+              ></span>
+              <span
+                className={`${active ? 'bg-black' : 'bg-white'} w-6 h-1 mb-1`}
+              ></span>
+              <span
+                className={`${active ? 'bg-black' : 'bg-white'} w-6 h-1 mb-1`}
+              ></span>
             </button>
           </div>
         </div>

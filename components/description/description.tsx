@@ -3,10 +3,7 @@ import { useTranslation } from 'next-i18next';
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 import { FaReact, FaNodeJs } from 'react-icons/fa';
-import {
-  SiTypescript,
-  SiPython,
-} from 'react-icons/si';
+import { SiTypescript, SiPython } from 'react-icons/si';
 export const Description = () => {
   const { t } = useTranslation('description');
   // Create reference to store the DOM element containing the animation

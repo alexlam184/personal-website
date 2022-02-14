@@ -20,10 +20,13 @@ export const Project = () => {
           <div className='absolute top-40 right-40 h-[200px] w-[500px] text-white bg-bkgrounddarkpurple z-20'>
             <div className='text-3xl text-white p-5'>
               <span>
-                <mark>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Excepturi neque, ipsa animi maiores repellendu distinctioaperiam
-                earum dolor voluptatum consequatur blanditiis inventore debitis
-                fuga numquam voluptate architecto itaque molestiae.</mark>
+                <mark>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Excepturi neque, ipsa animi maiores repellendu
+                  distinctioaperiam earum dolor voluptatum consequatur
+                  blanditiis inventore debitis fuga numquam voluptate architecto
+                  itaque molestiae.
+                </mark>
               </span>
             </div>
           </div>
