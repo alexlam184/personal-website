@@ -28,11 +28,11 @@ export default function Loading() {
     // const handleStart = (url) => url !== router.asPath && setLoading(true);
     // const handleComplete = (url) => url === router.asPath && setLoading(false);
 
-    const handleStart = (url) => {
+    const handleStart = (url:string) => {
       setLoading(true);
       console.log('Router change...');
     };
-    const handleComplete = (url) => {
+    const handleComplete = (url:string) => {
       setLoading(false);
       console.log('Router change completed');
     };
