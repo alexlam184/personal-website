@@ -46,7 +46,7 @@ export const Home = () => {
       </div>
       {/* <div className='absolute xl:left-20 block w-10/12 md:w-auto xl:top-20 md:top-50 z-1 border-8 bg-transparent'> */}
       <div className='absolute xl:left-20 block w-10/12 md:w-auto xl:top-20 md:top-50 z-1 bg-transparent'>
-        <div className='m-4 md:m-12 xl:m-10'>
+        <div className='xl:m-10'>
           <span className='block text-white text-4xl md:text-6xl xl:text-4xl'>
             {t('greeting')}
           </span>
