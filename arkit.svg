@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="658px" preserveAspectRatio="none" style="width:968px;height:658px;" version="1.1" viewBox="0 0 968 658" width="968px" zoomAndPan="magnify"><defs/><g><ellipse cx="103.1274" cy="591.242" fill="#F8F8F8" rx="25.6274" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="32" x="87.1274" y="594.9842">_app</text><ellipse cx="102.8519" cy="237.0704" fill="#F8F8F8" rx="95.8519" ry="21.5704" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="171" x="17.3519" y="240.8126">_app-696f116c9de669b3</text><ellipse cx="103.1268" cy="291.0254" fill="#F8F8F8" rx="63.1268" ry="15.0254" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="96" x="55.1268" y="294.7675">_buildManifest</text><ellipse cx="103.235" cy="344.847" fill="#F8F8F8" rx="97.235" ry="21.847" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="174" x="16.235" y="348.5892">_error-2280fa386d040b66</text><ellipse cx="102.8676" cy="403.1735" fill="#F8F8F8" rx="81.3676" ry="18.6735" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="139" x="33.3676" y="406.9157">_middlewareManifest</text><ellipse cx="102.9845" cy="452.8969" fill="#F8F8F8" rx="59.9845" ry="14.3969" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="58.9845" y="456.6391">_ssgManifest</text><ellipse cx="346.4493" cy="236.7899" fill="#F8F8F8" rx="89.4493" ry="20.2899" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="157" x="267.9493" y="240.532">184-60ca3ebd83712fd3</text><ellipse cx="346.4146" cy="299.0829" fill="#F8F8F8" rx="108.4146" ry="24.0829" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="198" x="247.4146" y="302.8251">1bfc9850-2b0dab09e0e9be22</text><!--MD5=[9e064c5e188e05833a57fd168d2139cf]
+entity _contact--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="64" x="572" y="8"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="44" x="582" y="30.0059">contact</text><ellipse cx="346.7082" cy="365.2416" fill="#F8F8F8" rx="111.7082" ry="24.7416" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="205" x="244.2082" y="368.9838">d0447323-6e11d943e96a56b6</text><ellipse cx="346.7369" cy="431.1474" fill="#F8F8F8" rx="111.2369" ry="24.6474" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="204" x="244.7369" y="434.8896">d64684d8-be20eae60939955d</text><ellipse cx="346.4146" cy="497.0829" fill="#F8F8F8" rx="108.4146" ry="24.0829" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="198" x="247.4146" y="500.8251">d7eeaac4-5486f34730382d4c</text><!--MD5=[7b6c2e716e4412b8bf5d4a17da9c2790]
+entity _description--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="84" x="562" y="59"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="64" x="572" y="81.0059">description</text><ellipse cx="603.7659" cy="237.0532" fill="#F8F8F8" rx="110.7659" ry="24.5532" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="203" x="502.2659" y="240.7954">framework-91d7f78b5b4003c8</text><ellipse cx="603.8345" cy="292.242" fill="#F8F8F8" rx="26.3345" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="33" x="587.3345" y="295.9842">hello</text><!--MD5=[7ed8920061ca6cdf7785575000b61429]
+entity _home--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="53" x="577.5" y="110"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="33" x="587.5" y="132.0059">home</text><ellipse cx="603.9319" cy="343.8864" fill="#F8F8F8" rx="94.9319" ry="21.3864" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="169" x="519.4319" y="347.6286">index-96d2d0262f330cc5</text><ellipse cx="103.1985" cy="634.242" fill="#F8F8F8" rx="32.6985" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="42" x="82.1985" y="637.9842">loading</text><ellipse cx="604.2256" cy="403.2451" fill="#F8F8F8" rx="91.7256" ry="20.7451" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="162" x="523.2256" y="406.9873">main-6c2afe4d930b13df</text><!--MD5=[3e0b7e9abf15b1dc922b384ed64ba568]
+entity _navbar--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="58" x="575" y="161"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="38" x="585" y="183.0059">navbar</text><ellipse cx="603.7904" cy="454.242" fill="#F8F8F8" rx="51.7904" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="69" x="569.2904" y="457.9842">next-env.d</text><ellipse cx="102.933" cy="545.0866" fill="#F8F8F8" rx="68.433" ry="16.0866" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="109" x="48.433" y="548.8288">next-i18next.config</text><ellipse cx="102.771" cy="497.8542" fill="#F8F8F8" rx="54.771" ry="13.3542" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="65.771" y="501.5964">next.config</text><ellipse cx="102.7843" cy="102.242" fill="#F8F8F8" rx="31.2843" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="40" x="82.7843" y="105.9842">pages</text><ellipse cx="853.301" cy="236.9602" fill="#F8F8F8" rx="102.801" ry="22.9602" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="186" x="760.301" y="240.7024">polyfills-5cd94c89d3acac5f</text><ellipse cx="853.7352" cy="292.847" fill="#F8F8F8" rx="64.7352" ry="15.347" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="100" x="803.7352" y="296.5892">postcss.config</text><!--MD5=[eb78fe556db4f9cb065585c33bb7a61b]
+entity _project--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="68" x="819.5" y="326"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="48" x="829.5" y="348.0059">project</text><ellipse cx="853.5267" cy="392.1053" fill="#F8F8F8" rx="63.5267" ry="15.1053" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="97" x="805.0267" y="395.8475">tailwind.config</text><ellipse cx="853.7335" cy="447.1467" fill="#F8F8F8" rx="103.7335" ry="23.1467" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="188" x="759.7335" y="450.8889">webpack-2b99834efceef160</text><!--MD5=[16a4f4bf5a0b50eb4437a14c6aa12437]
+link <b>_app</b> to loading--><path d="M103,604.0806 C103,607.9347 103,611.7888 103,615.6429 " fill="none" id="&lt;b&gt;_app&lt;/b&gt;-&gt;loading" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="103,620.8984,107,611.8984,103,615.8984,99,611.8984,103,620.8984" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[411a744c576129cf4c3ae76b99a47bdb]
+link <b>next.config</b> to next-i18next.config--><path d="M103,511.976 C103,515.929 103,519.883 103,523.836 " fill="none" id="&lt;b&gt;next.config&lt;/b&gt;-&gt;next-i18next.config" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="103,528.844,107,519.844,103,523.844,99,519.844,103,528.844" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[0d69f000887839f096234c0ef2ef332a]
+link <b>pages</b> to _contact--><path d="M131.532,96.346 C157.993,91.006 199.14,82.952 235,77 C356.282,56.871 500.883,37.899 566.907,29.513 " fill="none" id="&lt;b&gt;pages&lt;/b&gt;-&gt;_contact" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="571.906,28.879,562.4746,26.0419,566.9457,29.5074,563.4801,33.9785,571.906,28.879" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[3255a3bbacedc9752c6d211ca2e6ec14]
+link <b>pages</b> to _description--><path d="M134.464,100.413 C218.76,96.021 455.528,83.684 556.468,78.425 " fill="none" id="&lt;b&gt;pages&lt;/b&gt;-&gt;_description" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="561.754,78.149,552.5582,74.6224,556.7608,78.409,552.9742,82.6116,561.754,78.149" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[a25dc1de267e8f0602b11cc1a2db40ef]
+link <b>pages</b> to _home--><path d="M134.464,103.526 C223.468,107.985 482.451,120.96 572.059,125.45 " fill="none" id="&lt;b&gt;pages&lt;/b&gt;-&gt;_home" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="577.21,125.708,568.4213,121.2629,572.2163,125.458,568.0212,129.2529,577.21,125.708" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[b438656fa903843446f7f99565cb5a81]
+link <b>pages</b> to _navbar--><path d="M132.338,106.933 C158.852,111.507 199.575,118.427 235,124 C358.158,143.375 504.866,164.241 569.549,173.328 " fill="none" id="&lt;b&gt;pages&lt;/b&gt;-&gt;_navbar" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="574.808,174.066,566.4506,168.855,569.8564,173.3717,565.3397,176.7775,574.808,174.066" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[56dd90e34f4c5d7cdd1c20bd8287093f]
+link <b>_app-696f116c9de669b3</b> to <b>_buildManifest</b>--><!--MD5=[1255529fbbda494abbe44aa1595e21d6]
+link <b>_buildManifest</b> to <b>_error-2280fa386d040b66</b>--><!--MD5=[ed0d1fc4b7c2225c031bec929fed631a]
+link <b>_error-2280fa386d040b66</b> to <b>_middlewareManifest</b>--><!--MD5=[efb0eb19cf7076309dfec93f5a76ca23]
+link <b>_middlewareManifest</b> to <b>_ssgManifest</b>--><!--MD5=[9f69cb0c7becf4031e8aa0c9c2eaa3e7]
+link <b>_app-696f116c9de669b3</b> to <b>184-60ca3ebd83712fd3</b>--><!--MD5=[099eee972674846c2c04c3a341055ff2]
+link <b>184-60ca3ebd83712fd3</b> to <b>1bfc9850-2b0dab09e0e9be22</b>--><!--MD5=[e16ddcc0d961d4b85c810bb369265667]
+link <b>1bfc9850-2b0dab09e0e9be22</b> to <b>d0447323-6e11d943e96a56b6</b>--><!--MD5=[bf55c699c2e6cf390864b3bb2c5bbd8f]
+link <b>d0447323-6e11d943e96a56b6</b> to <b>d64684d8-be20eae60939955d</b>--><!--MD5=[7f577b62d7da4198655e57fb567417a8]
+link <b>d64684d8-be20eae60939955d</b> to <b>d7eeaac4-5486f34730382d4c</b>--><!--MD5=[1af3b7ffdc3ea300f5d574df1b1738c6]
+link <b>184-60ca3ebd83712fd3</b> to <b>framework-91d7f78b5b4003c8</b>--><!--MD5=[16e4e85b0f3c58430e015fdfa06bac11]
+link <b>framework-91d7f78b5b4003c8</b> to <b>hello</b>--><!--MD5=[30d3736ca87e24f93f3bdd86c98e9fc5]
+link <b>hello</b> to <b>index-96d2d0262f330cc5</b>--><!--MD5=[6f73fc72fdd94ce2def65f4c8cc2f09b]
+link <b>index-96d2d0262f330cc5</b> to <b>main-6c2afe4d930b13df</b>--><!--MD5=[a844ba95a40766fe76ac80619118048c]
+link <b>main-6c2afe4d930b13df</b> to <b>next-env.d</b>--><!--MD5=[0588e6594797979c960894963f360df3]
+link <b>framework-91d7f78b5b4003c8</b> to <b>polyfills-5cd94c89d3acac5f</b>--><!--MD5=[d0397ccff73fa472c4cf25f15301be5b]
+link <b>polyfills-5cd94c89d3acac5f</b> to <b>postcss.config</b>--><!--MD5=[9a759e6544b693ea16fc7c1ca040dfc0]
+link <b>postcss.config</b> to _project--><!--MD5=[cb186a9cdf17079d9a0f2c974341bada]
+link _project to <b>tailwind.config</b>--><!--MD5=[308639bd50e2892d75790695fad20432]
+link <b>tailwind.config</b> to <b>webpack-2b99834efceef160</b>--><script type="text/plantuml"><![CDATA[MD5=[eb8791ba2b94e528ab492bb3506757af]
+@startuml
+
+scale max 1920 width
+left to right direction
+
+skinparam nodesep 17
+skinparam ranksep 35
+skinparam monochrome true
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+skinparam defaultFontSize 12
+skinparam roundCorner 6
+skinparam dpi 150
+skinparam arrowColor black
+skinparam arrowThickness 0.5
+skinparam packageTitleAlignment left
+
+skinparam usecase {
+  borderThickness 0.5
+}
+
+skinparam rectangle {
+  borderThickness 0.5
+}
+
+skinparam component {
+  borderThickness 1
+}
+
+
+(<b>_app</b>)
+(<b>_app-696f116c9de669b3</b>)
+(<b>_buildManifest</b>)
+(<b>_error-2280fa386d040b66</b>)
+(<b>_middlewareManifest</b>)
+(<b>_ssgManifest</b>)
+(<b>184-60ca3ebd83712fd3</b>)
+(<b>1bfc9850-2b0dab09e0e9be22</b>)
+rectangle "contact" as _contact
+(<b>d0447323-6e11d943e96a56b6</b>)
+(<b>d64684d8-be20eae60939955d</b>)
+(<b>d7eeaac4-5486f34730382d4c</b>)
+rectangle "description" as _description
+(<b>framework-91d7f78b5b4003c8</b>)
+(<b>hello</b>)
+rectangle "home" as _home
+(<b>index-96d2d0262f330cc5</b>)
+(loading)
+(<b>main-6c2afe4d930b13df</b>)
+rectangle "navbar" as _navbar
+(<b>next-env.d</b>)
+(next-i18next.config)
+(<b>next.config</b>)
+(<b>pages</b>)
+(<b>polyfills-5cd94c89d3acac5f</b>)
+(<b>postcss.config</b>)
+rectangle "<b>project</b>" as _project
+(<b>tailwind.config</b>)
+(<b>webpack-2b99834efceef160</b>)
+
+
+(<b>_app</b>) -[thickness=1]> (loading)
+(<b>next.config</b>) -[thickness=1]> (next-i18next.config)
+(<b>pages</b>) ---[thickness=1]> _contact
+(<b>pages</b>) ---[thickness=1]> _description
+(<b>pages</b>) ---[thickness=1]> _home
+(<b>pages</b>) ---[thickness=1]> _navbar
+
+@enduml
+
+
+' View and edit on https://arkit.pro
+]]></script></g></svg>

@@ -8,13 +8,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export":"next export",
+    "export": "next export",
     "lint": "next lint",
     "prepare": "husky install",
     "format": "yarn prettier --ignore-path .gitignore --write **/*.{js,jsx,ts,tsx}"
   },
   "dependencies": {
     "all": "^0.0.0",
+    "arkit": "^1.6.4",
     "autoprefixer": "^10.4.2",
     "gh-pages": "^3.2.3",
     "husky": "^7.0.4",
