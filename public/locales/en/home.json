@@ -1,11 +1,11 @@
 {
-  "fullname":"Alexander",
-  "surname":"Lam",
-    "greeting":"Hi, I am",
-    "developer":"Developer",
-    "baller":"Basketball fans",
-    "boxer":"Boxing lover",
-    "freelancer":"Freelancer",
-    "resume":"Resume",
-    "project":"Project"
-  }
+  "fullname": "Alexander",
+  "surname": "Lam",
+  "greeting": "Hi, I am",
+  "developer": "Developer",
+  "baller": "Basketball fans",
+  "boxer": "Boxing lover",
+  "freelancer": "Freelancer",
+  "resume": "Resume",
+  "project": "Project"
+}

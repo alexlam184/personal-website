@@ -24,7 +24,7 @@ export const Contact = () => {
                         className='bg-black w-10/12 text-white'
                         type='text'
                         name='fname'
-                        placeholder={t('name')}
+                        placeholder={t('name') ?? 'Name'}
                       />
                     </div>
                     <div className='flex justify-center m-2'>
@@ -32,14 +32,14 @@ export const Contact = () => {
                         className='bg-black text-white w-10/12'
                         type='text'
                         name='email'
-                        placeholder={t('email')}
+                        placeholder={t('email') ?? 'Email'}
                       />
                     </div>
                     <div className='flex justify-center m-2'>
                       <textarea
                         className='bg-black text-white w-10/12 h-[300px]'
                         name='message'
-                        placeholder={t('message')}
+                        placeholder={t('message') ?? 'Message'}
                       />
                     </div>
                     <div className='flex justify-evenly my-8'>

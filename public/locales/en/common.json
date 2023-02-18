@@ -1,9 +1,9 @@
 {
-    "getintouch":"GET IN TOUCH",
-    "connect":"Send me a msg...",
-    "name":"NAME",
-    "email":"EMAIL",
-    "message":"MESSAGE",
-    "submit":"Submit",
-    "getcloser":"CLOSER..."
-  }
+  "getintouch": "GET IN TOUCH",
+  "connect": "Send me a msg...",
+  "name": "NAME",
+  "email": "EMAIL",
+  "message": "MESSAGE",
+  "submit": "Submit",
+  "getcloser": "CLOSER..."
+}

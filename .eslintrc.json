@@ -1,11 +1,7 @@
 {
   "parser": "@typescript-eslint/parser",
-  "extends": [
-    "plugin:@typescript-eslint/recommended",
-    "next",
-    "prettier"
-  ]
-//   ,"rules": {
-//     "@typescript-eslint/no-explicit-any": ["off"]
-//  }
+  "extends": ["plugin:@typescript-eslint/recommended", "next", "prettier"]
+  //   ,"rules": {
+  //     "@typescript-eslint/no-explicit-any": ["off"]
+  //  }
 }
