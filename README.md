@@ -1,4 +1,4 @@
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/alexlam184/personal-website/blob/master/LICENSE)
+[![MIT License](https://img.shields.io/github/license/alexlam184/personal-website)](https://github.com/alexlam184/personal-website/blob/master/LICENSE)
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -105,6 +105,7 @@ only use `lg:` is ok,the rest will be marked as small screen
   ...
 </div>
 ```
+
 </details>
 
 # License & Copyright
