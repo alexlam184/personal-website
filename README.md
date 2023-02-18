@@ -83,6 +83,26 @@ Open http://localhost:3000 with your browser to see the result.
 | ---------- | ------- |
 | header     | 40      |
 
+# TailwindCSS
+
+Screen
+| Components | min-width |
+| ---------- | --------- |
+| sm | 640px |
+| md | 768px |
+| lg | 1024px |
+
+## REMARK
+
+only use `lg:` is ok,the rest will be marked as small screen
+
+```ts
+// min screen width will be 10/12 of full screen (phone) , big screen wiil be width 100% (desktop)
+<div className='absolute top-0 left-0 w-10/12 lg:w-full h-screen bg-white text-black z-40  lg:relative lg:w-full lg:h-full'>
+  ...
+</div>
+```
+
 ## License & Copyright
 
 [MIT](https://github.com/alexlam184/personal-website/blob/master/LICENSE)
