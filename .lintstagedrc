@@ -1,6 +1,4 @@
 {
-  "*.{js,ts,tsx,css,json}": [
-    "yarn check-lint",
-    "yarn check-format"
-  ]
+  "*.{js,ts,tsx,css,json}": ["yarn check-lint", "yarn check-format"],
+  "*.{ts,tsx}": ["yarn check-types"]
 }
