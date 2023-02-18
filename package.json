@@ -14,7 +14,7 @@
     "check-types": "tsc --pretty --noEmit",
     "check-format": "prettier --ignore-path .gitignore --check **/*.{js,jsx,ts,tsx,json,css}",
     "check-lint": "eslint . --ext ts --ext tsx --ext js",
-    "check-all": "yarn check-format && yarn check-types"
+    "check-all": "yarn check-format && yarn check-types && yarn check-lint"
   },
   "dependencies": {
     "all": "^0.0.0",
