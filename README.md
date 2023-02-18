@@ -83,7 +83,10 @@ Open http://localhost:3000 with your browser to see the result.
 | ---------- | ------- |
 | header     | 40      |
 
-# TailwindCSS
+</details>
+
+<details>
+<summary>TailwindCSS Style</summary>
 
 Screen
 | Components | min-width |
@@ -102,8 +105,9 @@ only use `lg:` is ok,the rest will be marked as small screen
   ...
 </div>
 ```
+</details>
 
-## License & Copyright
+# License & Copyright
 
 [MIT](https://github.com/alexlam184/personal-website/blob/master/LICENSE)
 
