@@ -1,1 +1,4 @@
 globals.css
+/node_modules
+/.husky
+/.next
