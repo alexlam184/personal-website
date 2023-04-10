@@ -25,19 +25,26 @@ export default function handler(
 ) {
   //res.status(200).json({ name: 'Lion Rock222' });
 
-  fetch(
-    'http://api.onenet.hk.chinamobile.com/devices/161110960/datapoints',
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
-    requestOptions
-  )
-    .then((response) => response.text())
-    .then((result) => {
-      console.log(result);
-      res.status(200).json({ name: result });
-    })
-    .catch((error) => {
-      console.log('error', error);
-      res.status(200).json({ name: error });
-    });
+  if (req.method === 'POST') {
+    // Process a POST request
+    console.log('api req=', req);
+    fetch(
+      'http://api.onenet.hk.chinamobile.com/devices/161110960/datapoints',
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
+      requestOptions
+    )
+      .then((response) => response.text())
+      .then((result) => {
+        console.log(result);
+        res.status(200).json({ name: result });
+      })
+      .catch((error) => {
+        console.log('error', error);
+        res.status(200).json({ name: error });
+      });
+  } else {
+    // Handle any other HTTP method
+    res.status(200).json({ name: 'GET butterfly' });
+  }
 }
