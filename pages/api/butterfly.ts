@@ -23,7 +23,7 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  res.status(200).json({ name: 'Lion Rock222' });
+  //res.status(200).json({ name: 'Lion Rock222' });
 
   fetch(
     'http://api.onenet.hk.chinamobile.com/devices/161110960/datapoints',
@@ -32,6 +32,12 @@ export default function handler(
     requestOptions
   )
     .then((response) => response.text())
-    .then((result) => console.log(result))
-    .catch((error) => console.log('error', error));
+    .then((result) => {
+      console.log(result);
+      res.status(200).json({ name: result });
+    })
+    .catch((error) => {
+      console.log('error', error);
+      res.status(200).json({ name: error });
+    });
 }
